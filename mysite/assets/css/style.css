@@ -1,5 +1,24 @@
+html{
+    font-family: 'Times New Roman', Times, serif;
+}
+
 body {
+    margin: 0px;
+    padding: 0px;
     background-color: azure;
+}
+
+/*Navbar formatting*/
+nav{
+    background-color: coral;
+    padding: 15px;
+}
+nav a{
+    padding: 5px;
+    
+}
+nav a:hover{
+    font-size: 50px;
 }
 
 .center{
