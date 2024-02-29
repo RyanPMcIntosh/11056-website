@@ -10,6 +10,11 @@ body {
     color: #25242D;
 }
 
+footer{
+    margin: 5%;
+    font-size: 1vw;
+}
+
 hr{
     border: 1px solid #25242D;
     margin-left: 5%;
@@ -27,6 +32,27 @@ h1{
     font-weight: bolder;
 }
 
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+ol{
+    padding: 2%;
+    margin: 0px;
+    background-color: #F689A2;
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    font-weight: bold;
+}
+
+il{
+    padding-left: 5px;
+    margin: 0px;
+    text-align: left;
+    font-weight: lighter;
+}
 
 /*Navbar formatting*/
 nav{
@@ -48,6 +74,22 @@ nav a:hover{
 /*Classes*/
 .center{
     text-align: center;
+}
+
+.section2{
+    background-color: #6C7EB3;
+    padding-top: 1%; 
+    padding-bottom: 5%;
+}
+
+.section3{
+    margin: 5%;
+}
+
+.section4{
+    background-color: #25242D; 
+    color: #ffffff;
+    padding: 5%;
 }
 
 
@@ -77,6 +119,9 @@ nav a:hover{
     nav a:hover{
         font-size: 2.5vw;
     }
+    footer{
+        font-size: 1.5vw;
+    }
 }
 
 /*Phones*/
@@ -89,5 +134,8 @@ nav a:hover{
         height: auto;
         padding-left: 0;
         padding-right: 0;
+    }
+    footer{
+        font-size: 2.5vw;
     }
 }
