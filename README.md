@@ -1,2 +1,4 @@
 # 11056-website
- Code for front-end web
+## Assignment 1 Webpage and Markdown Sheet
+
+Webpage template for Canberra Modern website.
